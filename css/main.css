@@ -1,12 +1,15 @@
-* {
-	background-color: dodgerblue;
-	color: indianred;
+body {
+	background: url('http://www.pitchmanager.co.uk/images/grass2.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: lightskyblue;
 }
 
 h1 {
+	font-family: "Kaushan Script", cursive;
 	text-align: center;
-	font-size: 2.2em;
+	font-size: 2.5em;
 	margin: 1.2em;
+	color: #2335C3;
 }
 
 h2 {

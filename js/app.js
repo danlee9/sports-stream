@@ -36,6 +36,7 @@ $(function() {
 			type: "GET"
 		})
 		.done(function(result) {
+			console.log(result);
 			for (var i=0; i<$frame.length; i++) {
 				var thumbnail = result.data[i].images.thumbnail.url;
 				var link = result.data[i].link;
